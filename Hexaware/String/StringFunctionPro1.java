@@ -60,8 +60,8 @@ public class StringFunctionPro1 {
         System.out.println("12345".matches("\\d+")); // true
         System.out.println(Arrays.toString("Java".toCharArray())); // [J, a, v, a]
 
-        System.out.println(String.format("My name is %s and age %d", "JB", 25));
-        // My name is JB and age 25
+        System.out.println(String.format("My name is %s and age %d", "JB", 22));
+        // My name is JB and age 22
 
         System.out.println("   Hello   ".strip()); // Hello (Java 11+)
         System.out.println("   Hello".stripLeading()); // Hello
@@ -112,7 +112,7 @@ public class StringFunctionPro1 {
 // false
 // true
 // [J, a, v, a]
-// My name is JB and age 25
+// My name is JB and age 22
 // Hello
 // Hello
 // Hello
