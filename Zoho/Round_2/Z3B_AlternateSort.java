@@ -15,11 +15,14 @@ public class Z3B_AlternateSort {
         int maxIdx = n - 1;
 
         for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 == 0) 
+            {
          
                 arr[i] += (arr[maxIdx] % maxElem) * maxElem;
                 maxIdx--;
-            } else {
+            } 
+            else 
+            {
              
                 arr[i] += (arr[minIdx] % maxElem) * maxElem;
                 minIdx++;
@@ -45,7 +48,7 @@ public class Z3B_AlternateSort {
             arr[i] = sc.nextInt();
         }
         sc.close();
-
+k
         alternateSortInPlace(arr);
 
         for (int num : arr) 
