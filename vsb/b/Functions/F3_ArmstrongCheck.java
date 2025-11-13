@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class F3_ArmstrongCheck 
 {
-    static boolean isArmstrong(int num) 
+    static boolean isArmstrong(int num) // chnage - find armstrong to check armstrong 
     {
         int original = num;
         int result = 0;
